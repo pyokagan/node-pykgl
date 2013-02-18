@@ -1,0 +1,6 @@
+[submodule "node_modules/bindings"]
+	path = node_modules/bindings
+	url = https://github.com/TooTallNate/node-bindings.git
+[submodule "deps/angle/angleproject"]
+	path = deps/angle/angleproject
+	url = https://github.com/pyokagan/mirror-angleproject.git

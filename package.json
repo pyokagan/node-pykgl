@@ -1,0 +1,24 @@
+{
+    "name": "pykgl",
+    "version": "0.0.1",
+    "description": "OpenGL bindings which implements a superset of WebGL.",
+    "author": "Paul Tan <pyokagan@gmail.com>",
+    "keywords": ["opengl", "3d", "gl", "webgl"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pyokagan/node-pykgl.git"
+    },
+    "main": "./lib/pykgl.js",
+    "scripts": {
+        "install": "node-gyp rebuild"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/pyokagan/node-pykgl/blob/master/LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "bindings": "*"
+    }
+}
