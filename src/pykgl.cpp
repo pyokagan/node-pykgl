@@ -1755,7 +1755,7 @@ void WebGLRenderingContext::Init(Handle<Object> target) {
 }
 
 
-void Init(Handle<Object> target) {
+void InitModule(Handle<Object> target) {
     angle::init();
     WebGLTexture::Init(target);
     WebGLShader::Init(target);
@@ -1766,4 +1766,4 @@ void Init(Handle<Object> target) {
     atexit(angle::destroy);
 }
 
-NODE_MODULE(pykgl, Init)
+NODE_MODULE(pykgl, InitModule)
